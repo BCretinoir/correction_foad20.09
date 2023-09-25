@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Overpass:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+/*Family: [Overpass](https://fonts.google.com/specimen/Overpass?preview.text_type=custom)
+- Weights: 300, 600*/
+/* font-family: 'Overpass', sans-serif;
+  font-family: 'Ubuntu', sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Overpass" sans-serif;
+}
+
+body {
+  --darkgrayblue: #2c2d3f;
+  --verydesaturedblue: #3f4164;
+  --lightred: #ff525d;
+  --very-light-red: #ff8f70;
+  --verydarkblue: #1f3f5b;
+  --docwidth: 90%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+img,
+input {
+  max-width: 100%;
+}
+/*++++++++++++++++++++header et nav+++++++++++++++++++*/
+/*++++++++++++++++++++header et nav+++++++++++++++++++*/
+/*++++++++++++++++++++header et nav+++++++++++++++++++*/
+/*++++++++++++++++++++header et nav+++++++++++++++++++*/
+/*++++++++++++++++++++header et nav+++++++++++++++++++*/
+/*++++++++++++++++++++header et nav+++++++++++++++++++*/
+/*++++++++++++++++++++header et nav+++++++++++++++++++*/
+
+header {
+  color: #fff;
+  height: 80vh;
+  background-color: #ff525d;
+  background-color: linear-gradient(337deg, #ff525d 0%, #ff7a85 80%);
+  background-color: -webkit-linear-gradient(337deg, #ff525d 0%, #ff7a85 80%);
+  background-color: -moz-linear-gradient(337deg, #ff525d 0%, #ff7a85 80%);
+  background-image: url(../images/bg-pattern-intro-mobile.svg);
+  background-position: 35% 37%;
+  background-size: 343%;
+  background-repeat: no-repeat;
+  border-radius: 0px 0px 0px 80px;
+  -webkit-border-radius: 0px 0px 0px 80px;
+  -moz-border-radius: 0px 0px 0px 80px;
+}
+
+h1 {
+  width: var(--docwidth);
+  text-align: center;
+  font-weight: 600;
+  margin: auto;
+}
+
+header p {
+  width: var(--docwidth);
+  margin: auto;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.btn {
+  border-radius: 100px 100px 100px 100px;
+  -webkit-border-radius: 100px 100px 100px 100px;
+  -moz-border-radius: 100px 100px 100px 100px;
+  border: white solid 0.05rem;
+  background: rgba(0, 0, 0, 0);
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  font-weight: 600;
+}
+
+.btn-active {
+  border-radius: 45px;
+  border: white solid 0.05rem;
+  background: white;
+  font-family: "Ubuntu", sans-serif;
+  color: var(--lightred);
+  padding: 0.6rem 1rem;
+  margin: 0.5rem;
+  font-weight: 600;
+}
+
+h1 ~ div {
+  display: flex;
+  justify-content: center;
+}
+
+/*++++++++++++++++++++Main sections+++++++++++++++++++*/
+/*++++++++++++++++++++Main sections+++++++++++++++++++*/
+/*++++++++++++++++++++Main sections+++++++++++++++++++*/
+/*++++++++++++++++++++Main sections+++++++++++++++++++*/
+/*++++++++++++++++++++Main sections+++++++++++++++++++*/
+/*++++++++++++++++++++Main sections+++++++++++++++++++*/
+/*++++++++++++++++++++Main sections+++++++++++++++++++*/
+
+main {
+  /*Attention un width avec en vw ne tient pas compte du box-sizing:border-box */
+  width: 100%;
+  overflow: hidden;
+}
+
+#design,
+#design-bis {
+  text-align: center;
+  width: var(--docwidth);
+  margin: auto;
+}
+
+#design h2,
+#design-bis h2 {
+  padding: 3rem 0;
+}
+
+#design h3,
+#design-bis h3 {
+  padding: 1.5rem 0;
+}
+
+#design p,
+#design-bis p {
+  line-height: 1.5rem;
+}
+
+/*++++++++++++++++++++Main sections+++++++++++++++++++*/
+/*++++++++++++++++++++Main sections+++++++++++++++++++*/
+/*++++++++++++++++++++Main sections+++++++++++++++++++*/
+/*++++++++++++++++++++Main sections+++++++++++++++++++*/
+/*++++++++++++++++++++Main sections+++++++++++++++++++*/
+/*++++++++++++++++++++Main sections+++++++++++++++++++*/
+/*++++++++++++++++++++Main sections+++++++++++++++++++*/
+
+#sota {
+  position: relative;
+  text-align: center;
+  /* Ctrl+f2 permet de selectionner toutes les occurences d'une même sélection */
+  border-radius: 0px 82px 0px 82px;
+  -webkit-border-radius: 0px 82px 0px 82px;
+  -moz-border-radius: 0px 82px 0px 82px;
+  background-color: #2c2d3f;
+  background-position: 35% 37%;
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-image: url(../images/bg-pattern-circles.svg);
+  margin-top: 15rem;
+  color: white;
+}
+
+#sota div {
+  position: absolute;
+  top: -40%;
+}
+
+#sota h2 {
+  width: var(--docwidth);
+  margin: auto;
+  padding-top: 13rem;
+}
+
+#sota p {
+  width: var(--docwidth);
+  margin: auto;
+  padding-bottom: 6rem;
+  padding-top: 1rem;
+}
+
+#design-bis div {
+  margin-top: 5rem;
+}
+
+#design-bis img {
+  transform: scale(140%);
+}
+
+/*++++++++++++++++++++FOOTER+++++++++++++++++++*/
+/*++++++++++++++++++++FOOTER+++++++++++++++++++*/
+/*++++++++++++++++++++FOOTER+++++++++++++++++++*/
+/*++++++++++++++++++++FOOTER+++++++++++++++++++*/
+/*++++++++++++++++++++FOOTER+++++++++++++++++++*/
+/*++++++++++++++++++++FOOTER+++++++++++++++++++*/
+/*++++++++++++++++++++FOOTER+++++++++++++++++++*/
+
+footer {
+  background-color: #2c2d3f;
+  border-radius: 0px 75px 0px 0px;
+  -webkit-border-radius: 0px 75px 0px 0px;
+  -moz-border-radius: 0px 75px 0px 0px;
+}
+
+#menu-footer {
+  width: var(--docwidth);
+  margin: auto;
+  padding: 3rem;
+  color: #fff;
+  text-align: center;
+}
+
+#menu-footer ul {
+  list-style-type: none;
+}
+
+#logo-footer {
+  padding: 20%;
+}
+
+#menu-footer ul {
+  list-style-type: none;
+  font-weight: 900;
+  padding: 1rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#menu-footer li {
+  font-weight: 100;
+  padding: 0.2rem;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++BP576PX++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++BP576PX++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++BP576PX++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++BP576PX++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++BP576PX++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+@media screen and (min-width: 576px) {
+  body {
+    --docwidth: 75%;
+  }
+  header {
+    background-image: url(../images/bg-pattern-intro-desktop.svg);
+    background-position: 35% 37%;
+    background-size: 150%;
+    height: 60vh;
+  }
+
+  #innerdesign {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  #innerdesign div {
+    width: 50%;
+  }
+  #innerdesign img {
+    content: url(../images/illustration-editor-desktop.svg);
+    width: 200%;
+    transform: translateY(-10%);
+  }
+
+  #sota {
+    margin-top: 0;
+    display: flex;
+    height: 40vh;
+  }
+
+  #sota div,
+  #sota article {
+    position: static;
+    width: 50%;
+  }
+  #sota h2 {
+    padding-top: 10vh;
+  }
+
+  #sota img {
+    transform: scale(70%) translateY(-40%);
+  }
+}
